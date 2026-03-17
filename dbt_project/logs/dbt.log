@@ -1,0 +1,1803 @@
+[0m19:50:50.697652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA3CDC0080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA3CE7D250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA3CE7C950>]}
+
+
+============================== 19:50:50.713456 | c0427593-098a-4681-bd5d-ab8bdbfce11f ==============================
+[0m19:50:50.713456 [info ] [MainThread]: Running with dbt=1.10.15
+[0m19:50:50.714458 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m19:50:50.801720 [info ] [MainThread]: dbt version: 1.10.15
+[0m19:50:50.801720 [info ] [MainThread]: python version: 3.12.0
+[0m19:50:50.802586 [info ] [MainThread]: python path: C:\Users\manis\AppData\Local\Programs\Python\Python312\python.exe
+[0m19:50:50.802586 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:50:50.803626 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Syntax error near line 2
+  ------------------------------
+  1  | healthcare_profile:
+  2  | 	target: dev
+  3  | 	outputs:
+  4  | 		dev:
+  5  | 			type: postgres
+  
+  Raw Error:
+  ------------------------------
+  while scanning for the next token
+  found character that cannot start any token
+    in "<unicode string>", line 2, column 1
+[0m19:50:50.804598 [debug] [MainThread]: Command `dbt debug` failed at 19:50:50.804598 after 0.25 seconds
+[0m19:50:50.804598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA3CEB3FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA3CEFF290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA3CE7CC50>]}
+[0m19:50:50.804598 [debug] [MainThread]: Flushing usage events
+[0m19:50:51.396326 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:58:53.654759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177789DAA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017778D96060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001777AF5B680>]}
+
+
+============================== 19:58:53.658275 | b8aedcc0-2b39-4b2a-9a4d-4188e6246d72 ==============================
+[0m19:58:53.658275 [info ] [MainThread]: Running with dbt=1.10.15
+[0m19:58:53.659279 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m19:58:53.670835 [info ] [MainThread]: dbt version: 1.10.15
+[0m19:58:53.671835 [info ] [MainThread]: python version: 3.12.0
+[0m19:58:53.671835 [info ] [MainThread]: python path: C:\Users\manis\AppData\Local\Programs\Python\Python312\python.exe
+[0m19:58:53.672835 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:58:53.722284 [info ] [MainThread]: Using profiles dir at C:\Users\manis\.dbt
+[0m19:58:53.723301 [info ] [MainThread]: Using profiles.yml file at C:\Users\manis\.dbt\profiles.yml
+[0m19:58:53.723301 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\dbt_project.yml
+[0m19:58:53.804918 [info ] [MainThread]: Configuration:
+[0m19:58:53.804918 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m19:58:53.806424 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:58:53.806424 [info ] [MainThread]: Required dependencies:
+[0m19:58:53.806950 [debug] [MainThread]: Executing "git --help"
+[0m19:58:53.837666 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:58:53.837666 [debug] [MainThread]: STDERR: "b''"
+[0m19:58:53.837666 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:58:53.838706 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:58:53.838706 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:58:53.839689 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "healthcare_profile", target "dev" invalid: 5432 is not of type 'string'
+
+
+[0m19:58:53.840666 [debug] [MainThread]: Command `dbt debug` failed at 19:58:53.839689 after 0.45 seconds
+[0m19:58:53.840666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001777BE4CFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001777D142AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001777BA56930>]}
+[0m19:58:53.840666 [debug] [MainThread]: Flushing usage events
+[0m19:58:54.414075 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:01:13.784756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9BF8AD040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9BF8ACC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9BF8ACD70>]}
+
+
+============================== 20:01:13.787294 | deeeea6d-c807-4cfd-8c6a-dba4dc182e62 ==============================
+[0m20:01:13.787294 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:01:13.788294 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:01:13.805836 [info ] [MainThread]: dbt version: 1.10.15
+[0m20:01:13.806385 [info ] [MainThread]: python version: 3.12.0
+[0m20:01:13.806385 [info ] [MainThread]: python path: C:\Users\manis\AppData\Local\Programs\Python\Python312\python.exe
+[0m20:01:13.807408 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m20:01:13.807408 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Syntax error near line 11
+  ------------------------------
+  8  |    user: "postgres"
+  9  |    password: "5432"
+  10 |    dbname: "healthcare
+  11 |    schema: "public"
+  
+  Raw Error:
+  ------------------------------
+  while parsing a block mapping
+    in "<unicode string>", line 5, column 4
+  did not find expected key
+    in "<unicode string>", line 11, column 13
+[0m20:01:13.808302 [debug] [MainThread]: Command `dbt debug` failed at 20:01:13.808302 after 0.14 seconds
+[0m20:01:13.808302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9BF8AD1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9BF8AECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9BF8ACA70>]}
+[0m20:01:13.809344 [debug] [MainThread]: Flushing usage events
+[0m20:01:14.568674 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:02:54.439459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2AABCD0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2AABCCCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2AABCD0D0>]}
+
+
+============================== 20:02:54.442481 | 3c0cec7f-1c91-49b5-8f2c-ce44e0b2c7c5 ==============================
+[0m20:02:54.442481 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:02:54.443481 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:02:54.455559 [info ] [MainThread]: dbt version: 1.10.15
+[0m20:02:54.456571 [info ] [MainThread]: python version: 3.12.0
+[0m20:02:54.456571 [info ] [MainThread]: python path: C:\Users\manis\AppData\Local\Programs\Python\Python312\python.exe
+[0m20:02:54.456571 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m20:02:54.457591 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Syntax error near line 11
+  ------------------------------
+  8  |    user: "postgres"
+  9  |    password: "5432"
+  10 |    dbname: "healthcare
+  11 |    schema: public
+  
+  Raw Error:
+  ------------------------------
+  while scanning a quoted scalar
+    in "<unicode string>", line 10, column 12
+  found unexpected end of stream
+    in "<unicode string>", line 11, column 18
+[0m20:02:54.458573 [debug] [MainThread]: Command `dbt debug` failed at 20:02:54.458573 after 0.24 seconds
+[0m20:02:54.458573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2AA778950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2AABCD100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2AABCF980>]}
+[0m20:02:54.458573 [debug] [MainThread]: Flushing usage events
+[0m20:02:55.044292 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:03:21.771019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1EB379010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1EF0C5100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1EF0C6CF0>]}
+
+
+============================== 20:03:21.774039 | 9f708384-0313-41ac-85ed-4e697ce0b1a5 ==============================
+[0m20:03:21.774039 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:03:21.774039 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:03:21.786591 [info ] [MainThread]: dbt version: 1.10.15
+[0m20:03:21.787593 [info ] [MainThread]: python version: 3.12.0
+[0m20:03:21.788191 [info ] [MainThread]: python path: C:\Users\manis\AppData\Local\Programs\Python\Python312\python.exe
+[0m20:03:21.788191 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m20:03:21.840093 [info ] [MainThread]: Using profiles dir at C:\Users\manis\.dbt
+[0m20:03:21.840821 [info ] [MainThread]: Using profiles.yml file at C:\Users\manis\.dbt\profiles.yml
+[0m20:03:21.841459 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\dbt_project.yml
+[0m20:03:21.841459 [info ] [MainThread]: adapter type: postgres
+[0m20:03:21.842472 [info ] [MainThread]: adapter version: 1.9.1
+[0m20:03:21.927834 [info ] [MainThread]: Configuration:
+[0m20:03:21.928850 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:03:21.928850 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:03:21.929847 [info ] [MainThread]: Required dependencies:
+[0m20:03:21.929847 [debug] [MainThread]: Executing "git --help"
+[0m20:03:21.945760 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:03:21.945760 [debug] [MainThread]: STDERR: "b''"
+[0m20:03:21.945760 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:03:21.946951 [info ] [MainThread]: Connection:
+[0m20:03:21.946951 [info ] [MainThread]:   host: localhost
+[0m20:03:21.946951 [info ] [MainThread]:   port: 5432
+[0m20:03:21.947950 [info ] [MainThread]:   user: postgres
+[0m20:03:21.947950 [info ] [MainThread]:   database: healthcare
+[0m20:03:21.947950 [info ] [MainThread]:   schema: public
+[0m20:03:21.947950 [info ] [MainThread]:   connect_timeout: 10
+[0m20:03:21.948950 [info ] [MainThread]:   role: None
+[0m20:03:21.948950 [info ] [MainThread]:   search_path: None
+[0m20:03:21.948950 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:03:21.948950 [info ] [MainThread]:   sslmode: None
+[0m20:03:21.949950 [info ] [MainThread]:   sslcert: None
+[0m20:03:21.949950 [info ] [MainThread]:   sslkey: None
+[0m20:03:21.949950 [info ] [MainThread]:   sslrootcert: None
+[0m20:03:21.949950 [info ] [MainThread]:   application_name: dbt
+[0m20:03:21.949950 [info ] [MainThread]:   retries: 1
+[0m20:03:21.950950 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:03:22.099810 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:03:22.227949 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:03:22.228951 [debug] [MainThread]: On debug: select 1 as id
+[0m20:03:22.228951 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:03:22.258835 [debug] [MainThread]: SQL status: SELECT 1 in 0.030 seconds
+[0m20:03:22.259865 [debug] [MainThread]: On debug: Close
+[0m20:03:22.259865 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:03:22.260869 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:03:22.260869 [debug] [MainThread]: Command `dbt debug` succeeded at 20:03:22.260869 after 0.61 seconds
+[0m20:03:22.261851 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:03:22.261851 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1EEDC9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1EB379010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1EC7F9220>]}
+[0m20:03:22.261851 [debug] [MainThread]: Flushing usage events
+[0m20:03:23.016556 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:03:56.702427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA0F37FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA4829CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA49C5760>]}
+
+
+============================== 20:03:56.705964 | 7401e9fa-848c-412e-bfb4-9a790dc6dd4c ==============================
+[0m20:03:56.705964 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:03:56.706955 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:03:56.905447 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7401e9fa-848c-412e-bfb4-9a790dc6dd4c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA607A7B0>]}
+[0m20:03:56.967042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7401e9fa-848c-412e-bfb4-9a790dc6dd4c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA4CF1A60>]}
+[0m20:03:56.968043 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:03:57.109995 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:03:57.110996 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:03:57.112027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7401e9fa-848c-412e-bfb4-9a790dc6dd4c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA432C440>]}
+[0m20:03:57.909533 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.healthcare_dbt.stg_healthcare' (models\staging\stg_healthcare.sql) depends on a source named 'raw.stg_healthcare_raw' which was not found
+[0m20:03:57.910534 [debug] [MainThread]: Command `dbt run` failed at 20:03:57.910534 after 1.34 seconds
+[0m20:03:57.911517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA49C5760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA6577C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAA6347DD0>]}
+[0m20:03:57.911517 [debug] [MainThread]: Flushing usage events
+[0m20:03:58.513772 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:06:49.080987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80D941010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E810F17D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E810F15F70>]}
+
+
+============================== 20:06:49.085544 | 0f6c4050-46a7-4d74-9f2b-db19e7b013ac ==============================
+[0m20:06:49.085544 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:06:49.085544 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:06:49.241516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0f6c4050-46a7-4d74-9f2b-db19e7b013ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E810FEE060>]}
+[0m20:06:49.292947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0f6c4050-46a7-4d74-9f2b-db19e7b013ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8128BBF50>]}
+[0m20:06:49.294451 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:06:49.439533 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:06:49.439533 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:06:49.440533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0f6c4050-46a7-4d74-9f2b-db19e7b013ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8117ED790>]}
+[0m20:06:50.240260 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.healthcare_dbt.stg_healthcare' (models\staging\stg_healthcare.sql) depends on a source named 'raw.stg_healthcare_raw' which was not found
+[0m20:06:50.241412 [debug] [MainThread]: Command `dbt run` failed at 20:06:50.241412 after 1.36 seconds
+[0m20:06:50.241412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E812E85250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E812EA8260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E81178D280>]}
+[0m20:06:50.242428 [debug] [MainThread]: Flushing usage events
+[0m20:06:50.769968 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:07:15.480680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C3ED59B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C4168CB30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C4168C380>]}
+
+
+============================== 20:07:15.484232 | 3e8b20d9-d429-48d1-8d4c-0892362c6451 ==============================
+[0m20:07:15.484232 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:07:15.485275 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:07:15.634474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3e8b20d9-d429-48d1-8d4c-0892362c6451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C41BBC740>]}
+[0m20:07:15.687897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3e8b20d9-d429-48d1-8d4c-0892362c6451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C41A57F50>]}
+[0m20:07:15.688872 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:07:15.829214 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:07:15.830212 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:07:15.831210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3e8b20d9-d429-48d1-8d4c-0892362c6451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C42EB1D90>]}
+[0m20:07:16.764280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3e8b20d9-d429-48d1-8d4c-0892362c6451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C432A3F20>]}
+[0m20:07:16.836717 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:07:16.839719 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:07:16.882761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3e8b20d9-d429-48d1-8d4c-0892362c6451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C434A3320>]}
+[0m20:07:16.882761 [info ] [MainThread]: Found 2 models, 1 test, 1 source, 459 macros
+[0m20:07:16.884267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3e8b20d9-d429-48d1-8d4c-0892362c6451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C43326030>]}
+[0m20:07:16.885289 [info ] [MainThread]: 
+[0m20:07:16.886272 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:07:16.886702 [info ] [MainThread]: 
+[0m20:07:16.886702 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:07:16.890746 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare'
+[0m20:07:16.939059 [debug] [ThreadPool]: Using postgres connection "list_healthcare"
+[0m20:07:16.940058 [debug] [ThreadPool]: On list_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:07:16.940058 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:07:16.971398 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.031 seconds
+[0m20:07:16.975480 [debug] [ThreadPool]: On list_healthcare: Close
+[0m20:07:16.977510 [debug] [ThreadPool]: Using postgres connection "list_healthcare"
+[0m20:07:16.977510 [debug] [ThreadPool]: On list_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:07:16.978481 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:07:17.004448 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.027 seconds
+[0m20:07:17.005585 [debug] [ThreadPool]: On list_healthcare: Close
+[0m20:07:17.006593 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_healthcare, now create_healthcare_public_marts)
+[0m20:07:17.007589 [debug] [ThreadPool]: Creating schema "database: "healthcare"
+schema: "public_marts"
+"
+[0m20:07:17.010606 [debug] [ThreadPool]: Using postgres connection "create_healthcare_public_marts"
+[0m20:07:17.011606 [debug] [ThreadPool]: On create_healthcare_public_marts: BEGIN
+[0m20:07:17.011606 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:07:17.039304 [debug] [ThreadPool]: SQL status: BEGIN in 0.028 seconds
+[0m20:07:17.039304 [debug] [ThreadPool]: Using postgres connection "create_healthcare_public_marts"
+[0m20:07:17.039304 [debug] [ThreadPool]: On create_healthcare_public_marts: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "create_healthcare_public_marts"} */
+create schema if not exists "public_marts"
+[0m20:07:17.048312 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.009 seconds
+[0m20:07:17.049312 [debug] [ThreadPool]: On create_healthcare_public_marts: COMMIT
+[0m20:07:17.049312 [debug] [ThreadPool]: Using postgres connection "create_healthcare_public_marts"
+[0m20:07:17.050314 [debug] [ThreadPool]: On create_healthcare_public_marts: COMMIT
+[0m20:07:17.050314 [debug] [ThreadPool]: SQL status: COMMIT in 0.001 seconds
+[0m20:07:17.051312 [debug] [ThreadPool]: On create_healthcare_public_marts: Close
+[0m20:07:17.052312 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare_public'
+[0m20:07:17.056856 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:07:17.056856 [debug] [ThreadPool]: On list_healthcare_public: BEGIN
+[0m20:07:17.056856 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:07:17.087919 [debug] [ThreadPool]: SQL status: BEGIN in 0.030 seconds
+[0m20:07:17.087919 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:07:17.087919 [debug] [ThreadPool]: On list_healthcare_public: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m20:07:17.096343 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.007 seconds
+[0m20:07:17.096343 [debug] [ThreadPool]: On list_healthcare_public: ROLLBACK
+[0m20:07:17.097358 [debug] [ThreadPool]: On list_healthcare_public: Close
+[0m20:07:17.098344 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_healthcare_public, now list_healthcare_public_marts)
+[0m20:07:17.099343 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:07:17.100343 [debug] [ThreadPool]: On list_healthcare_public_marts: BEGIN
+[0m20:07:17.100343 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:07:17.127615 [debug] [ThreadPool]: SQL status: BEGIN in 0.028 seconds
+[0m20:07:17.128614 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:07:17.128614 [debug] [ThreadPool]: On list_healthcare_public_marts: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public_marts"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_marts'
+  
+[0m20:07:17.132099 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.003 seconds
+[0m20:07:17.133077 [debug] [ThreadPool]: On list_healthcare_public_marts: ROLLBACK
+[0m20:07:17.133077 [debug] [ThreadPool]: On list_healthcare_public_marts: Close
+[0m20:07:17.136594 [debug] [MainThread]: Using postgres connection "master"
+[0m20:07:17.136594 [debug] [MainThread]: On master: BEGIN
+[0m20:07:17.136594 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:07:17.164692 [debug] [MainThread]: SQL status: BEGIN in 0.028 seconds
+[0m20:07:17.164692 [debug] [MainThread]: Using postgres connection "master"
+[0m20:07:17.166004 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m20:07:17.171045 [debug] [MainThread]: SQL status: SELECT 0 in 0.005 seconds
+[0m20:07:17.172074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3e8b20d9-d429-48d1-8d4c-0892362c6451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C434812E0>]}
+[0m20:07:17.172074 [debug] [MainThread]: On master: ROLLBACK
+[0m20:07:17.172074 [debug] [MainThread]: Using postgres connection "master"
+[0m20:07:17.173045 [debug] [MainThread]: On master: BEGIN
+[0m20:07:17.173045 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m20:07:17.173045 [debug] [MainThread]: On master: COMMIT
+[0m20:07:17.173045 [debug] [MainThread]: Using postgres connection "master"
+[0m20:07:17.173045 [debug] [MainThread]: On master: COMMIT
+[0m20:07:17.174567 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:07:17.174567 [debug] [MainThread]: On master: Close
+[0m20:07:17.187786 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.stg_healthcare
+[0m20:07:17.187786 [info ] [Thread-1 (]: 1 of 2 START sql view model public.stg_healthcare .............................. [RUN]
+[0m20:07:17.188760 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.healthcare_dbt.stg_healthcare'
+[0m20:07:17.188760 [debug] [Thread-1 (]: Began compiling node model.healthcare_dbt.stg_healthcare
+[0m20:07:17.194303 [debug] [Thread-1 (]: Writing injected SQL for node "model.healthcare_dbt.stg_healthcare"
+[0m20:07:17.195316 [debug] [Thread-1 (]: Began executing node model.healthcare_dbt.stg_healthcare
+[0m20:07:17.219427 [debug] [Thread-1 (]: Writing runtime sql for node "model.healthcare_dbt.stg_healthcare"
+[0m20:07:17.221425 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:07:17.221425 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: BEGIN
+[0m20:07:17.221425 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:07:17.378889 [debug] [Thread-1 (]: SQL status: BEGIN in 0.157 seconds
+[0m20:07:17.378889 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:07:17.379890 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+
+  create view "healthcare"."public"."stg_healthcare__dbt_tmp"
+    
+    
+  as (
+    
+
+select
+"Name" as name,
+("Age")::numeric as age,
+"Gender" as gender,
+"Blood Type" as blood_type,
+"Medical Condition" as medical_condition,
+to_date("Date of Admission", 'MM/DD/YYYY') as date_of_admission,
+"Doctor" as doctor,
+"Hospital" as hospital,
+"Insurance Provider" as insurance_provider,
+("Billing Amount")::numeric as billing_amount,
+("Room Number")::integer as room_number,
+"Admission Type" as admission_type,
+to_date("Discharge Date", 'MM/DD/YYYY') as discharge_date,
+"Medication" as medication,
+"Tesst Results" as test_results
+
+from "healthcare"."public"."stg_healthcare_raw"
+  );
+[0m20:07:17.385788 [debug] [Thread-1 (]: Postgres adapter: Postgres error: column "Tesst Results" does not exist
+LINE 24: "Tesst Results" as test_results
+         ^
+HINT:  Perhaps you meant to reference the column "stg_healthcare_raw.Test Results".
+
+[0m20:07:17.385788 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: ROLLBACK
+[0m20:07:17.386788 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: Close
+[0m20:07:17.399364 [debug] [Thread-1 (]: Database Error in model stg_healthcare (models\staging\stg_healthcare.sql)
+  column "Tesst Results" does not exist
+  LINE 24: "Tesst Results" as test_results
+           ^
+  HINT:  Perhaps you meant to reference the column "stg_healthcare_raw.Test Results".
+  compiled code at target\run\healthcare_dbt\models\staging\stg_healthcare.sql
+[0m20:07:17.404352 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e8b20d9-d429-48d1-8d4c-0892362c6451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C43240170>]}
+[0m20:07:17.404352 [error] [Thread-1 (]: 1 of 2 ERROR creating sql view model public.stg_healthcare ..................... [[31mERROR[0m in 0.21s]
+[0m20:07:17.405496 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.stg_healthcare
+[0m20:07:17.406299 [debug] [Thread-4 (]: Marking all children of 'model.healthcare_dbt.stg_healthcare' to be skipped because of status 'error'.  Reason: Database Error in model stg_healthcare (models\staging\stg_healthcare.sql)
+  column "Tesst Results" does not exist
+  LINE 24: "Tesst Results" as test_results
+           ^
+  HINT:  Perhaps you meant to reference the column "stg_healthcare_raw.Test Results".
+  compiled code at target\run\healthcare_dbt\models\staging\stg_healthcare.sql.
+[0m20:07:17.407324 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.mart_kpis
+[0m20:07:17.407324 [info ] [Thread-1 (]: 2 of 2 SKIP relation public_marts.mart_kpis .................................... [[33mSKIP[0m]
+[0m20:07:17.408322 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.mart_kpis
+[0m20:07:17.409323 [debug] [MainThread]: Using postgres connection "master"
+[0m20:07:17.410323 [debug] [MainThread]: On master: BEGIN
+[0m20:07:17.410323 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:07:17.452501 [debug] [MainThread]: SQL status: BEGIN in 0.042 seconds
+[0m20:07:17.453500 [debug] [MainThread]: On master: COMMIT
+[0m20:07:17.453500 [debug] [MainThread]: Using postgres connection "master"
+[0m20:07:17.453500 [debug] [MainThread]: On master: COMMIT
+[0m20:07:17.454501 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:07:17.455010 [debug] [MainThread]: On master: Close
+[0m20:07:17.455010 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:07:17.455010 [debug] [MainThread]: Connection 'create_healthcare_public_marts' was properly closed.
+[0m20:07:17.455010 [debug] [MainThread]: Connection 'list_healthcare_public_marts' was properly closed.
+[0m20:07:17.456032 [debug] [MainThread]: Connection 'model.healthcare_dbt.stg_healthcare' was properly closed.
+[0m20:07:17.456032 [info ] [MainThread]: 
+[0m20:07:17.457010 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.57 seconds (0.57s).
+[0m20:07:17.457010 [debug] [MainThread]: Command end result
+[0m20:07:17.471523 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:07:17.473526 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:07:17.481042 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\run_results.json
+[0m20:07:17.481042 [info ] [MainThread]: 
+[0m20:07:17.482042 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:07:17.482042 [info ] [MainThread]: 
+[0m20:07:17.483072 [error] [MainThread]: [31mFailure in model stg_healthcare (models\staging\stg_healthcare.sql)[0m
+[0m20:07:17.483072 [error] [MainThread]:   Database Error in model stg_healthcare (models\staging\stg_healthcare.sql)
+  column "Tesst Results" does not exist
+  LINE 24: "Tesst Results" as test_results
+           ^
+  HINT:  Perhaps you meant to reference the column "stg_healthcare_raw.Test Results".
+  compiled code at target\run\healthcare_dbt\models\staging\stg_healthcare.sql
+[0m20:07:17.483072 [info ] [MainThread]: 
+[0m20:07:17.484262 [info ] [MainThread]:   compiled code at target\compiled\healthcare_dbt\models\staging\stg_healthcare.sql
+[0m20:07:17.484727 [info ] [MainThread]: 
+[0m20:07:17.484727 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 NO-OP=0 TOTAL=2
+[0m20:07:17.485738 [debug] [MainThread]: Command `dbt run` failed at 20:07:17.485738 after 2.13 seconds
+[0m20:07:17.485738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C4176C5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C40D9EC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C40CBE300>]}
+[0m20:07:17.485738 [debug] [MainThread]: Flushing usage events
+[0m20:07:18.071981 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:09:45.347039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6BDBDC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6BE5C7A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6BCEF2F0>]}
+
+
+============================== 20:09:45.349268 | 3f1bc98a-ce5d-4123-a975-d0409da58bad ==============================
+[0m20:09:45.349268 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:09:45.350278 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:09:45.496736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3f1bc98a-ce5d-4123-a975-d0409da58bad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6C568440>]}
+[0m20:09:45.549363 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3f1bc98a-ce5d-4123-a975-d0409da58bad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6D826B40>]}
+[0m20:09:45.550363 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:09:45.682931 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:09:45.791801 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m20:09:45.791801 [debug] [MainThread]: Partial parsing: updated file: healthcare_dbt://models\staging\stg_healthcare.sql
+[0m20:09:46.124621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3f1bc98a-ce5d-4123-a975-d0409da58bad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6DD89A90>]}
+[0m20:09:46.191686 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:09:46.194444 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:09:46.219358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3f1bc98a-ce5d-4123-a975-d0409da58bad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6DA41580>]}
+[0m20:09:46.220345 [info ] [MainThread]: Found 2 models, 1 test, 1 source, 459 macros
+[0m20:09:46.220345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3f1bc98a-ce5d-4123-a975-d0409da58bad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6DCFCFB0>]}
+[0m20:09:46.222358 [info ] [MainThread]: 
+[0m20:09:46.222358 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:09:46.222358 [info ] [MainThread]: 
+[0m20:09:46.222358 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:09:46.227339 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare'
+[0m20:09:46.273741 [debug] [ThreadPool]: Using postgres connection "list_healthcare"
+[0m20:09:46.274246 [debug] [ThreadPool]: On list_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:09:46.274246 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:09:46.307143 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.033 seconds
+[0m20:09:46.308155 [debug] [ThreadPool]: On list_healthcare: Close
+[0m20:09:46.310653 [debug] [ThreadPool]: Using postgres connection "list_healthcare"
+[0m20:09:46.310653 [debug] [ThreadPool]: On list_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:09:46.310653 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:09:46.339827 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.028 seconds
+[0m20:09:46.340944 [debug] [ThreadPool]: On list_healthcare: Close
+[0m20:09:46.342026 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare_public'
+[0m20:09:46.346842 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:09:46.346842 [debug] [ThreadPool]: On list_healthcare_public: BEGIN
+[0m20:09:46.347838 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:09:46.376368 [debug] [ThreadPool]: SQL status: BEGIN in 0.028 seconds
+[0m20:09:46.376368 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:09:46.376368 [debug] [ThreadPool]: On list_healthcare_public: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m20:09:46.380373 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.003 seconds
+[0m20:09:46.381378 [debug] [ThreadPool]: On list_healthcare_public: ROLLBACK
+[0m20:09:46.381378 [debug] [ThreadPool]: On list_healthcare_public: Close
+[0m20:09:46.382489 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_healthcare_public, now list_healthcare_public_marts)
+[0m20:09:46.384999 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:09:46.384999 [debug] [ThreadPool]: On list_healthcare_public_marts: BEGIN
+[0m20:09:46.386006 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:09:46.426520 [debug] [ThreadPool]: SQL status: BEGIN in 0.041 seconds
+[0m20:09:46.427506 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:09:46.427506 [debug] [ThreadPool]: On list_healthcare_public_marts: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public_marts"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_marts'
+  
+[0m20:09:46.432504 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.005 seconds
+[0m20:09:46.433519 [debug] [ThreadPool]: On list_healthcare_public_marts: ROLLBACK
+[0m20:09:46.434057 [debug] [ThreadPool]: On list_healthcare_public_marts: Close
+[0m20:09:46.479516 [debug] [MainThread]: Using postgres connection "master"
+[0m20:09:46.479516 [debug] [MainThread]: On master: BEGIN
+[0m20:09:46.479516 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:09:46.509740 [debug] [MainThread]: SQL status: BEGIN in 0.030 seconds
+[0m20:09:46.510776 [debug] [MainThread]: Using postgres connection "master"
+[0m20:09:46.510776 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m20:09:46.513814 [debug] [MainThread]: SQL status: SELECT 0 in 0.003 seconds
+[0m20:09:46.514824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3f1bc98a-ce5d-4123-a975-d0409da58bad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF69B87710>]}
+[0m20:09:46.514824 [debug] [MainThread]: On master: ROLLBACK
+[0m20:09:46.515830 [debug] [MainThread]: Using postgres connection "master"
+[0m20:09:46.515830 [debug] [MainThread]: On master: BEGIN
+[0m20:09:46.515830 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m20:09:46.515830 [debug] [MainThread]: On master: COMMIT
+[0m20:09:46.515830 [debug] [MainThread]: Using postgres connection "master"
+[0m20:09:46.515830 [debug] [MainThread]: On master: COMMIT
+[0m20:09:46.517323 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:09:46.517323 [debug] [MainThread]: On master: Close
+[0m20:09:46.527844 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.stg_healthcare
+[0m20:09:46.528843 [info ] [Thread-1 (]: 1 of 2 START sql view model public.stg_healthcare .............................. [RUN]
+[0m20:09:46.528843 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.healthcare_dbt.stg_healthcare'
+[0m20:09:46.528843 [debug] [Thread-1 (]: Began compiling node model.healthcare_dbt.stg_healthcare
+[0m20:09:46.534798 [debug] [Thread-1 (]: Writing injected SQL for node "model.healthcare_dbt.stg_healthcare"
+[0m20:09:46.536069 [debug] [Thread-1 (]: Began executing node model.healthcare_dbt.stg_healthcare
+[0m20:09:46.557249 [debug] [Thread-1 (]: Writing runtime sql for node "model.healthcare_dbt.stg_healthcare"
+[0m20:09:46.558248 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:09:46.559247 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: BEGIN
+[0m20:09:46.559247 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:09:46.588045 [debug] [Thread-1 (]: SQL status: BEGIN in 0.029 seconds
+[0m20:09:46.589050 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:09:46.589050 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+
+  create view "healthcare"."public"."stg_healthcare__dbt_tmp"
+    
+    
+  as (
+    
+
+select
+"Name" as name,
+("Age")::numeric as age,
+"Gender" as gender,
+"Blood Type" as blood_type,
+"Medical Condition" as medical_condition,
+to_date("Date of Admission", 'MM/DD/YYYY') as date_of_admission,
+"Doctor" as doctor,
+"Hospital" as hospital,
+"Insurance Provider" as insurance_provider,
+("Billing Amount")::numeric as billing_amount,
+("Room Number")::integer as room_number,
+"Admission Type" as admission_type,
+to_date("Discharge Date", 'MM/DD/YYYY') as discharge_date,
+"Medication" as medication,
+"Test Results" as test_results
+
+from "healthcare"."public"."stg_healthcare_raw"
+  );
+[0m20:09:46.604747 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.016 seconds
+[0m20:09:46.609223 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:09:46.610863 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+alter table "healthcare"."public"."stg_healthcare__dbt_tmp" rename to "stg_healthcare"
+[0m20:09:46.611870 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m20:09:46.621384 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: COMMIT
+[0m20:09:46.622386 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:09:46.622386 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: COMMIT
+[0m20:09:46.623896 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m20:09:46.627911 [debug] [Thread-1 (]: Applying DROP to: "healthcare"."public"."stg_healthcare__dbt_backup"
+[0m20:09:46.630912 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:09:46.630912 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+drop view if exists "healthcare"."public"."stg_healthcare__dbt_backup" cascade
+[0m20:09:46.631911 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m20:09:46.634418 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: Close
+[0m20:09:46.636425 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3f1bc98a-ce5d-4123-a975-d0409da58bad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF691D2990>]}
+[0m20:09:46.636425 [info ] [Thread-1 (]: 1 of 2 OK created sql view model public.stg_healthcare ......................... [[32mCREATE VIEW[0m in 0.11s]
+[0m20:09:46.637425 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.stg_healthcare
+[0m20:09:46.637425 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.mart_kpis
+[0m20:09:46.638829 [info ] [Thread-1 (]: 2 of 2 START sql view model public_marts.mart_kpis ............................. [RUN]
+[0m20:09:46.638829 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.healthcare_dbt.stg_healthcare, now model.healthcare_dbt.mart_kpis)
+[0m20:09:46.639892 [debug] [Thread-1 (]: Began compiling node model.healthcare_dbt.mart_kpis
+[0m20:09:46.641901 [debug] [Thread-1 (]: Writing injected SQL for node "model.healthcare_dbt.mart_kpis"
+[0m20:09:46.642939 [debug] [Thread-1 (]: Began executing node model.healthcare_dbt.mart_kpis
+[0m20:09:46.644991 [debug] [Thread-1 (]: Writing runtime sql for node "model.healthcare_dbt.mart_kpis"
+[0m20:09:46.645994 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.mart_kpis"
+[0m20:09:46.646994 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: BEGIN
+[0m20:09:46.646994 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:09:46.676655 [debug] [Thread-1 (]: SQL status: BEGIN in 0.030 seconds
+[0m20:09:46.677989 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.mart_kpis"
+[0m20:09:46.677989 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.mart_kpis"} */
+
+  create view "healthcare"."public_marts"."mart_kpis__dbt_tmp"
+    
+    
+  as (
+    
+
+
+with base as (
+    select
+        *,
+        (discharge_date - date_of_admission) as los_interval
+    from "healthcare"."public"."stg_healthcare"
+),
+
+monthly as (
+    select
+        date_trunc('month', date_of_admission) as month,
+        count(*) as admissions,
+        avg(extract(day from los_interval)) as avg_los_days,
+        sum(billing_amount) as total_billing,
+        avg(billing_amount) as avg_billing
+    from base
+    group by 1
+)
+
+select * from monthly
+  );
+[0m20:09:46.681567 [debug] [Thread-1 (]: Postgres adapter: Postgres error: function pg_catalog.extract(unknown, integer) does not exist
+LINE 21:         avg(extract(day from los_interval)) as avg_los_days,
+                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+[0m20:09:46.681567 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: ROLLBACK
+[0m20:09:46.682582 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: Close
+[0m20:09:46.685095 [debug] [Thread-1 (]: Database Error in model mart_kpis (models\marts\mart_kpis.sql)
+  function pg_catalog.extract(unknown, integer) does not exist
+  LINE 21:         avg(extract(day from los_interval)) as avg_los_days,
+                       ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target\run\healthcare_dbt\models\marts\mart_kpis.sql
+[0m20:09:46.686100 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3f1bc98a-ce5d-4123-a975-d0409da58bad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6D9DBBC0>]}
+[0m20:09:46.686100 [error] [Thread-1 (]: 2 of 2 ERROR creating sql view model public_marts.mart_kpis .................... [[31mERROR[0m in 0.05s]
+[0m20:09:46.687467 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.mart_kpis
+[0m20:09:46.687467 [debug] [Thread-4 (]: Marking all children of 'model.healthcare_dbt.mart_kpis' to be skipped because of status 'error'.  Reason: Database Error in model mart_kpis (models\marts\mart_kpis.sql)
+  function pg_catalog.extract(unknown, integer) does not exist
+  LINE 21:         avg(extract(day from los_interval)) as avg_los_days,
+                       ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target\run\healthcare_dbt\models\marts\mart_kpis.sql.
+[0m20:09:46.689518 [debug] [MainThread]: Using postgres connection "master"
+[0m20:09:46.689518 [debug] [MainThread]: On master: BEGIN
+[0m20:09:46.690508 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:09:46.727724 [debug] [MainThread]: SQL status: BEGIN in 0.037 seconds
+[0m20:09:46.727724 [debug] [MainThread]: On master: COMMIT
+[0m20:09:46.727724 [debug] [MainThread]: Using postgres connection "master"
+[0m20:09:46.728759 [debug] [MainThread]: On master: COMMIT
+[0m20:09:46.728759 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:09:46.728759 [debug] [MainThread]: On master: Close
+[0m20:09:46.729720 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:09:46.729720 [debug] [MainThread]: Connection 'list_healthcare' was properly closed.
+[0m20:09:46.729720 [debug] [MainThread]: Connection 'list_healthcare_public_marts' was properly closed.
+[0m20:09:46.729720 [debug] [MainThread]: Connection 'model.healthcare_dbt.mart_kpis' was properly closed.
+[0m20:09:46.729720 [info ] [MainThread]: 
+[0m20:09:46.730722 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.51 seconds (0.51s).
+[0m20:09:46.731722 [debug] [MainThread]: Command end result
+[0m20:09:46.743767 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:09:46.745816 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:09:46.751796 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\run_results.json
+[0m20:09:46.751796 [info ] [MainThread]: 
+[0m20:09:46.752821 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:09:46.752821 [info ] [MainThread]: 
+[0m20:09:46.753777 [error] [MainThread]: [31mFailure in model mart_kpis (models\marts\mart_kpis.sql)[0m
+[0m20:09:46.753777 [error] [MainThread]:   Database Error in model mart_kpis (models\marts\mart_kpis.sql)
+  function pg_catalog.extract(unknown, integer) does not exist
+  LINE 21:         avg(extract(day from los_interval)) as avg_los_days,
+                       ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target\run\healthcare_dbt\models\marts\mart_kpis.sql
+[0m20:09:46.753777 [info ] [MainThread]: 
+[0m20:09:46.754838 [info ] [MainThread]:   compiled code at target\compiled\healthcare_dbt\models\marts\mart_kpis.sql
+[0m20:09:46.754838 [info ] [MainThread]: 
+[0m20:09:46.754838 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=2
+[0m20:09:46.755869 [debug] [MainThread]: Command `dbt run` failed at 20:09:46.755869 after 1.57 seconds
+[0m20:09:46.755869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6BCEF2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6BCED7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF6BCEC530>]}
+[0m20:09:46.755869 [debug] [MainThread]: Flushing usage events
+[0m20:09:47.434595 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:11:37.983247 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33D95F4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33E4066C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33DD982F0>]}
+
+
+============================== 20:11:37.986269 | e550c31d-f8e1-4a5b-af17-4b045dc4a308 ==============================
+[0m20:11:37.986269 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:11:37.986269 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:11:38.134934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e550c31d-f8e1-4a5b-af17-4b045dc4a308', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33D6EB560>]}
+[0m20:11:38.188068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e550c31d-f8e1-4a5b-af17-4b045dc4a308', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33E4066C0>]}
+[0m20:11:38.188068 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:11:38.332449 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:11:38.443231 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m20:11:38.443231 [debug] [MainThread]: Partial parsing: updated file: healthcare_dbt://models\marts\mart_kpis.sql
+[0m20:11:38.667951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e550c31d-f8e1-4a5b-af17-4b045dc4a308', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33F867D10>]}
+[0m20:11:38.731655 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:11:38.734164 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:11:38.751881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e550c31d-f8e1-4a5b-af17-4b045dc4a308', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33FA13FE0>]}
+[0m20:11:38.752887 [info ] [MainThread]: Found 2 models, 1 test, 1 source, 459 macros
+[0m20:11:38.753195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e550c31d-f8e1-4a5b-af17-4b045dc4a308', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33FD05760>]}
+[0m20:11:38.754206 [info ] [MainThread]: 
+[0m20:11:38.755312 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:11:38.755312 [info ] [MainThread]: 
+[0m20:11:38.756323 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:11:38.759926 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare'
+[0m20:11:38.808769 [debug] [ThreadPool]: Using postgres connection "list_healthcare"
+[0m20:11:38.809769 [debug] [ThreadPool]: On list_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:11:38.809769 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:11:38.841468 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.032 seconds
+[0m20:11:38.841468 [debug] [ThreadPool]: On list_healthcare: Close
+[0m20:11:38.843984 [debug] [ThreadPool]: Using postgres connection "list_healthcare"
+[0m20:11:38.844985 [debug] [ThreadPool]: On list_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:11:38.844985 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:11:38.871549 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.027 seconds
+[0m20:11:38.873092 [debug] [ThreadPool]: On list_healthcare: Close
+[0m20:11:38.874097 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare_public'
+[0m20:11:38.879099 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:11:38.879099 [debug] [ThreadPool]: On list_healthcare_public: BEGIN
+[0m20:11:38.879099 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:11:39.033086 [debug] [ThreadPool]: SQL status: BEGIN in 0.153 seconds
+[0m20:11:39.033591 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:11:39.033591 [debug] [ThreadPool]: On list_healthcare_public: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m20:11:39.036612 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.003 seconds
+[0m20:11:39.037597 [debug] [ThreadPool]: On list_healthcare_public: ROLLBACK
+[0m20:11:39.037597 [debug] [ThreadPool]: On list_healthcare_public: Close
+[0m20:11:39.038626 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_healthcare_public, now list_healthcare_public_marts)
+[0m20:11:39.040601 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:11:39.040601 [debug] [ThreadPool]: On list_healthcare_public_marts: BEGIN
+[0m20:11:39.040601 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:11:39.067113 [debug] [ThreadPool]: SQL status: BEGIN in 0.026 seconds
+[0m20:11:39.067113 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:11:39.068133 [debug] [ThreadPool]: On list_healthcare_public_marts: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public_marts"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_marts'
+  
+[0m20:11:39.070130 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.002 seconds
+[0m20:11:39.071116 [debug] [ThreadPool]: On list_healthcare_public_marts: ROLLBACK
+[0m20:11:39.072139 [debug] [ThreadPool]: On list_healthcare_public_marts: Close
+[0m20:11:39.075226 [debug] [MainThread]: Using postgres connection "master"
+[0m20:11:39.075226 [debug] [MainThread]: On master: BEGIN
+[0m20:11:39.075226 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:11:39.108349 [debug] [MainThread]: SQL status: BEGIN in 0.033 seconds
+[0m20:11:39.108349 [debug] [MainThread]: Using postgres connection "master"
+[0m20:11:39.108349 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m20:11:39.112361 [debug] [MainThread]: SQL status: SELECT 1 in 0.004 seconds
+[0m20:11:39.113888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e550c31d-f8e1-4a5b-af17-4b045dc4a308', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33FA11FA0>]}
+[0m20:11:39.113888 [debug] [MainThread]: On master: ROLLBACK
+[0m20:11:39.114897 [debug] [MainThread]: Using postgres connection "master"
+[0m20:11:39.114897 [debug] [MainThread]: On master: BEGIN
+[0m20:11:39.114897 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m20:11:39.115881 [debug] [MainThread]: On master: COMMIT
+[0m20:11:39.115881 [debug] [MainThread]: Using postgres connection "master"
+[0m20:11:39.115881 [debug] [MainThread]: On master: COMMIT
+[0m20:11:39.116883 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:11:39.116883 [debug] [MainThread]: On master: Close
+[0m20:11:39.119879 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.stg_healthcare
+[0m20:11:39.119879 [info ] [Thread-1 (]: 1 of 2 START sql view model public.stg_healthcare .............................. [RUN]
+[0m20:11:39.120878 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.healthcare_dbt.stg_healthcare'
+[0m20:11:39.120878 [debug] [Thread-1 (]: Began compiling node model.healthcare_dbt.stg_healthcare
+[0m20:11:39.126412 [debug] [Thread-1 (]: Writing injected SQL for node "model.healthcare_dbt.stg_healthcare"
+[0m20:11:39.126412 [debug] [Thread-1 (]: Began executing node model.healthcare_dbt.stg_healthcare
+[0m20:11:39.151086 [debug] [Thread-1 (]: Writing runtime sql for node "model.healthcare_dbt.stg_healthcare"
+[0m20:11:39.152085 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:11:39.152085 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: BEGIN
+[0m20:11:39.153085 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:11:39.200411 [debug] [Thread-1 (]: SQL status: BEGIN in 0.048 seconds
+[0m20:11:39.201427 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:11:39.201427 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+
+  create view "healthcare"."public"."stg_healthcare__dbt_tmp"
+    
+    
+  as (
+    
+
+select
+"Name" as name,
+("Age")::numeric as age,
+"Gender" as gender,
+"Blood Type" as blood_type,
+"Medical Condition" as medical_condition,
+to_date("Date of Admission", 'MM/DD/YYYY') as date_of_admission,
+"Doctor" as doctor,
+"Hospital" as hospital,
+"Insurance Provider" as insurance_provider,
+("Billing Amount")::numeric as billing_amount,
+("Room Number")::integer as room_number,
+"Admission Type" as admission_type,
+to_date("Discharge Date", 'MM/DD/YYYY') as discharge_date,
+"Medication" as medication,
+"Test Results" as test_results
+
+from "healthcare"."public"."stg_healthcare_raw"
+  );
+[0m20:11:39.204943 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.003 seconds
+[0m20:11:39.208959 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:11:39.208959 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+alter table "healthcare"."public"."stg_healthcare" rename to "stg_healthcare__dbt_backup"
+[0m20:11:39.209958 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m20:11:39.211960 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:11:39.211960 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+alter table "healthcare"."public"."stg_healthcare__dbt_tmp" rename to "stg_healthcare"
+[0m20:11:39.212959 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m20:11:39.223038 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: COMMIT
+[0m20:11:39.223038 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:11:39.224053 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: COMMIT
+[0m20:11:39.225058 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m20:11:39.229173 [debug] [Thread-1 (]: Applying DROP to: "healthcare"."public"."stg_healthcare__dbt_backup"
+[0m20:11:39.231726 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:11:39.231726 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+drop view if exists "healthcare"."public"."stg_healthcare__dbt_backup" cascade
+[0m20:11:39.237292 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.004 seconds
+[0m20:11:39.239328 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: Close
+[0m20:11:39.241291 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e550c31d-f8e1-4a5b-af17-4b045dc4a308', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33B26AD20>]}
+[0m20:11:39.242294 [info ] [Thread-1 (]: 1 of 2 OK created sql view model public.stg_healthcare ......................... [[32mCREATE VIEW[0m in 0.12s]
+[0m20:11:39.243289 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.stg_healthcare
+[0m20:11:39.243289 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.mart_kpis
+[0m20:11:39.243289 [info ] [Thread-1 (]: 2 of 2 START sql view model public_marts.mart_kpis ............................. [RUN]
+[0m20:11:39.244803 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.healthcare_dbt.stg_healthcare, now model.healthcare_dbt.mart_kpis)
+[0m20:11:39.244803 [debug] [Thread-1 (]: Began compiling node model.healthcare_dbt.mart_kpis
+[0m20:11:39.246794 [debug] [Thread-1 (]: Writing injected SQL for node "model.healthcare_dbt.mart_kpis"
+[0m20:11:39.247782 [debug] [Thread-1 (]: Began executing node model.healthcare_dbt.mart_kpis
+[0m20:11:39.250765 [debug] [Thread-1 (]: Writing runtime sql for node "model.healthcare_dbt.mart_kpis"
+[0m20:11:39.251768 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.mart_kpis"
+[0m20:11:39.251768 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: BEGIN
+[0m20:11:39.251768 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:11:39.278687 [debug] [Thread-1 (]: SQL status: BEGIN in 0.026 seconds
+[0m20:11:39.278687 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.mart_kpis"
+[0m20:11:39.278687 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.mart_kpis"} */
+
+  create view "healthcare"."public_marts"."mart_kpis__dbt_tmp"
+    
+    
+  as (
+    
+
+with base as (
+  select
+    *,
+    (discharge_date - date_of_admission) as los_days  -- integer days
+  from "healthcare"."public"."stg_healthcare"
+),
+monthly as (
+  select
+    date_trunc('month', date_of_admission) as month,
+    count(*)                                as admissions,
+    avg(los_days::numeric)                  as avg_los_days,   -- <— avg over integer days
+    sum(billing_amount)                     as total_billing,
+    avg(billing_amount)                     as avg_billing
+  from base
+  where los_days is not null                -- avoid nulls in avg
+  group by 1
+)
+select * from monthly
+  );
+[0m20:11:39.285218 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.006 seconds
+[0m20:11:39.287216 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.mart_kpis"
+[0m20:11:39.288215 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.mart_kpis"} */
+alter table "healthcare"."public_marts"."mart_kpis__dbt_tmp" rename to "mart_kpis"
+[0m20:11:39.288215 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m20:11:39.289216 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: COMMIT
+[0m20:11:39.290215 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.mart_kpis"
+[0m20:11:39.290215 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: COMMIT
+[0m20:11:39.291097 [debug] [Thread-1 (]: SQL status: COMMIT in 0.000 seconds
+[0m20:11:39.292136 [debug] [Thread-1 (]: Applying DROP to: "healthcare"."public_marts"."mart_kpis__dbt_backup"
+[0m20:11:39.293432 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.mart_kpis"
+[0m20:11:39.293432 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.mart_kpis"} */
+drop view if exists "healthcare"."public_marts"."mart_kpis__dbt_backup" cascade
+[0m20:11:39.294439 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m20:11:39.295452 [debug] [Thread-1 (]: On model.healthcare_dbt.mart_kpis: Close
+[0m20:11:39.295452 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e550c31d-f8e1-4a5b-af17-4b045dc4a308', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3401AA0C0>]}
+[0m20:11:39.296449 [info ] [Thread-1 (]: 2 of 2 OK created sql view model public_marts.mart_kpis ........................ [[32mCREATE VIEW[0m in 0.05s]
+[0m20:11:39.296449 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.mart_kpis
+[0m20:11:39.297436 [debug] [MainThread]: Using postgres connection "master"
+[0m20:11:39.298434 [debug] [MainThread]: On master: BEGIN
+[0m20:11:39.298434 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:11:39.325245 [debug] [MainThread]: SQL status: BEGIN in 0.027 seconds
+[0m20:11:39.326244 [debug] [MainThread]: On master: COMMIT
+[0m20:11:39.326244 [debug] [MainThread]: Using postgres connection "master"
+[0m20:11:39.326244 [debug] [MainThread]: On master: COMMIT
+[0m20:11:39.327230 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:11:39.327230 [debug] [MainThread]: On master: Close
+[0m20:11:39.327230 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:11:39.328257 [debug] [MainThread]: Connection 'list_healthcare' was properly closed.
+[0m20:11:39.328257 [debug] [MainThread]: Connection 'list_healthcare_public_marts' was properly closed.
+[0m20:11:39.328257 [debug] [MainThread]: Connection 'model.healthcare_dbt.mart_kpis' was properly closed.
+[0m20:11:39.328257 [info ] [MainThread]: 
+[0m20:11:39.329227 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.57 seconds (0.57s).
+[0m20:11:39.330229 [debug] [MainThread]: Command end result
+[0m20:11:39.383141 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:11:39.383141 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:11:39.394307 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\run_results.json
+[0m20:11:39.395353 [info ] [MainThread]: 
+[0m20:11:39.395353 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:11:39.396331 [info ] [MainThread]: 
+[0m20:11:39.396331 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m20:11:39.397311 [debug] [MainThread]: Command `dbt run` succeeded at 20:11:39.397311 after 1.54 seconds
+[0m20:11:39.397311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33E0407D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33D5F1BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33D5F0FB0>]}
+[0m20:11:39.397311 [debug] [MainThread]: Flushing usage events
+[0m20:11:40.296907 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:12:23.125648 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C227E24E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C2318AE40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C25136B70>]}
+
+
+============================== 20:12:23.128654 | eed5285b-5fe6-47e0-ae90-082644415f79 ==============================
+[0m20:12:23.128654 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:12:23.129631 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt test', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:12:23.272804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'eed5285b-5fe6-47e0-ae90-082644415f79', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C26E3BF80>]}
+[0m20:12:23.321942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'eed5285b-5fe6-47e0-ae90-082644415f79', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C25CCBFE0>]}
+[0m20:12:23.322944 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:12:23.461938 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:12:23.563470 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:12:23.563470 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:12:23.603103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'eed5285b-5fe6-47e0-ae90-082644415f79', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C24CE3890>]}
+[0m20:12:23.670981 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:12:23.673525 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:12:23.715908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'eed5285b-5fe6-47e0-ae90-082644415f79', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C27337350>]}
+[0m20:12:23.716908 [info ] [MainThread]: Found 2 models, 1 test, 1 source, 459 macros
+[0m20:12:23.716908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eed5285b-5fe6-47e0-ae90-082644415f79', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C2705E7E0>]}
+[0m20:12:23.718909 [info ] [MainThread]: 
+[0m20:12:23.718909 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:12:23.718909 [info ] [MainThread]: 
+[0m20:12:23.719908 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:12:23.720938 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare_public_marts'
+[0m20:12:23.771393 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:12:23.771393 [debug] [ThreadPool]: On list_healthcare_public_marts: BEGIN
+[0m20:12:23.771393 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:12:23.802267 [debug] [ThreadPool]: SQL status: BEGIN in 0.030 seconds
+[0m20:12:23.802799 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:12:23.802799 [debug] [ThreadPool]: On list_healthcare_public_marts: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public_marts"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_marts'
+  
+[0m20:12:23.805811 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.002 seconds
+[0m20:12:23.806826 [debug] [ThreadPool]: On list_healthcare_public_marts: ROLLBACK
+[0m20:12:23.806826 [debug] [ThreadPool]: On list_healthcare_public_marts: Close
+[0m20:12:23.807810 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_healthcare_public_marts, now list_healthcare_public)
+[0m20:12:23.808809 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:12:23.809809 [debug] [ThreadPool]: On list_healthcare_public: BEGIN
+[0m20:12:23.809809 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:12:23.836227 [debug] [ThreadPool]: SQL status: BEGIN in 0.026 seconds
+[0m20:12:23.836227 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:12:23.836227 [debug] [ThreadPool]: On list_healthcare_public: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m20:12:23.839226 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.002 seconds
+[0m20:12:23.840231 [debug] [ThreadPool]: On list_healthcare_public: ROLLBACK
+[0m20:12:23.840231 [debug] [ThreadPool]: On list_healthcare_public: Close
+[0m20:12:23.843743 [debug] [MainThread]: Using postgres connection "master"
+[0m20:12:23.844739 [debug] [MainThread]: On master: BEGIN
+[0m20:12:23.844739 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:12:23.872082 [debug] [MainThread]: SQL status: BEGIN in 0.027 seconds
+[0m20:12:23.872082 [debug] [MainThread]: Using postgres connection "master"
+[0m20:12:23.873122 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m20:12:23.875804 [debug] [MainThread]: SQL status: SELECT 2 in 0.003 seconds
+[0m20:12:23.877822 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eed5285b-5fe6-47e0-ae90-082644415f79', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C273374D0>]}
+[0m20:12:23.877822 [debug] [MainThread]: On master: ROLLBACK
+[0m20:12:23.877822 [debug] [MainThread]: Using postgres connection "master"
+[0m20:12:23.878804 [debug] [MainThread]: On master: BEGIN
+[0m20:12:23.878804 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m20:12:23.878804 [debug] [MainThread]: On master: COMMIT
+[0m20:12:23.878804 [debug] [MainThread]: Using postgres connection "master"
+[0m20:12:23.879826 [debug] [MainThread]: On master: COMMIT
+[0m20:12:23.879826 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:12:23.879826 [debug] [MainThread]: On master: Close
+[0m20:12:23.882805 [debug] [Thread-1 (]: Began running node test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546
+[0m20:12:23.882805 [info ] [Thread-1 (]: 1 of 1 START test not_null_stg_healthcare_date_of_admission .................... [RUN]
+[0m20:12:23.883901 [debug] [Thread-1 (]: Acquiring new postgres connection 'test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546'
+[0m20:12:23.883901 [debug] [Thread-1 (]: Began compiling node test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546
+[0m20:12:23.894767 [debug] [Thread-1 (]: Writing injected SQL for node "test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546"
+[0m20:12:23.895774 [debug] [Thread-1 (]: Began executing node test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546
+[0m20:12:23.907094 [debug] [Thread-1 (]: Writing runtime sql for node "test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546"
+[0m20:12:23.908080 [debug] [Thread-1 (]: Using postgres connection "test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546"
+[0m20:12:23.908080 [debug] [Thread-1 (]: On test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546: BEGIN
+[0m20:12:23.908080 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:12:23.941955 [debug] [Thread-1 (]: SQL status: BEGIN in 0.033 seconds
+[0m20:12:23.941955 [debug] [Thread-1 (]: Using postgres connection "test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546"
+[0m20:12:23.941955 [debug] [Thread-1 (]: On test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select date_of_admission
+from "healthcare"."public"."stg_healthcare"
+where date_of_admission is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m20:12:23.950604 [debug] [Thread-1 (]: Postgres adapter: Postgres error: date/time field value out of range: "2024-01-31"
+
+[0m20:12:23.950604 [debug] [Thread-1 (]: On test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546: ROLLBACK
+[0m20:12:23.951611 [debug] [Thread-1 (]: On test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546: Close
+[0m20:12:23.955132 [debug] [Thread-1 (]: Database Error in test not_null_stg_healthcare_date_of_admission (models\docs\schema.yml)
+  date/time field value out of range: "2024-01-31"
+  compiled code at target\run\healthcare_dbt\models\docs\schema.yml\not_null_stg_healthcare_date_of_admission.sql
+[0m20:12:23.955132 [error] [Thread-1 (]: 1 of 1 ERROR not_null_stg_healthcare_date_of_admission ......................... [[31mERROR[0m in 0.07s]
+[0m20:12:23.957128 [debug] [Thread-1 (]: Finished running node test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546
+[0m20:12:23.957128 [debug] [Thread-4 (]: Marking all children of 'test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546' to be skipped because of status 'error'.  Reason: Database Error in test not_null_stg_healthcare_date_of_admission (models\docs\schema.yml)
+  date/time field value out of range: "2024-01-31"
+  compiled code at target\run\healthcare_dbt\models\docs\schema.yml\not_null_stg_healthcare_date_of_admission.sql.
+[0m20:12:23.958133 [debug] [MainThread]: Using postgres connection "master"
+[0m20:12:23.959144 [debug] [MainThread]: On master: BEGIN
+[0m20:12:23.959144 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:12:23.988438 [debug] [MainThread]: SQL status: BEGIN in 0.030 seconds
+[0m20:12:23.989448 [debug] [MainThread]: On master: COMMIT
+[0m20:12:23.989448 [debug] [MainThread]: Using postgres connection "master"
+[0m20:12:23.989448 [debug] [MainThread]: On master: COMMIT
+[0m20:12:23.990437 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:12:23.990437 [debug] [MainThread]: On master: Close
+[0m20:12:23.990437 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:12:23.990437 [debug] [MainThread]: Connection 'list_healthcare_public' was properly closed.
+[0m20:12:23.991435 [debug] [MainThread]: Connection 'test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546' was properly closed.
+[0m20:12:23.991435 [info ] [MainThread]: 
+[0m20:12:23.991435 [info ] [MainThread]: Finished running 1 test in 0 hours 0 minutes and 0.27 seconds (0.27s).
+[0m20:12:23.991435 [debug] [MainThread]: Command end result
+[0m20:12:24.005139 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:12:24.006141 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:12:24.013644 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\run_results.json
+[0m20:12:24.013644 [info ] [MainThread]: 
+[0m20:12:24.013644 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:12:24.014652 [info ] [MainThread]: 
+[0m20:12:24.015660 [error] [MainThread]: [31mFailure in test not_null_stg_healthcare_date_of_admission (models\docs\schema.yml)[0m
+[0m20:12:24.015660 [error] [MainThread]:   Database Error in test not_null_stg_healthcare_date_of_admission (models\docs\schema.yml)
+  date/time field value out of range: "2024-01-31"
+  compiled code at target\run\healthcare_dbt\models\docs\schema.yml\not_null_stg_healthcare_date_of_admission.sql
+[0m20:12:24.016659 [info ] [MainThread]: 
+[0m20:12:24.016659 [info ] [MainThread]:   compiled code at target\compiled\healthcare_dbt\models\docs\schema.yml\not_null_stg_healthcare_date_of_admission.sql
+[0m20:12:24.016659 [info ] [MainThread]: 
+[0m20:12:24.017659 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:12:24.018659 [debug] [MainThread]: Command `dbt test` failed at 20:12:24.017659 after 1.01 seconds
+[0m20:12:24.018659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C25A01220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C253A6990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C24D31580>]}
+[0m20:12:24.018659 [debug] [MainThread]: Flushing usage events
+[0m20:12:24.478106 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:32:02.472957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263E7E6CC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263EA7A3980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263E9FF8560>]}
+
+
+============================== 20:32:02.477468 | 515f562f-c71e-4f92-826d-dc1859701973 ==============================
+[0m20:32:02.477468 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:32:02.478476 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run -s stg_healthcare', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:32:02.632253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '515f562f-c71e-4f92-826d-dc1859701973', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263EAA720C0>]}
+[0m20:32:02.684301 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '515f562f-c71e-4f92-826d-dc1859701973', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263EC524350>]}
+[0m20:32:02.684301 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:32:02.822344 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:32:02.932752 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m20:32:02.933752 [debug] [MainThread]: Partial parsing: updated file: healthcare_dbt://models\staging\stg_healthcare.sql
+[0m20:32:03.272619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '515f562f-c71e-4f92-826d-dc1859701973', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263ECB262A0>]}
+[0m20:32:03.346030 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:32:03.348552 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:32:03.367056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '515f562f-c71e-4f92-826d-dc1859701973', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263EC893170>]}
+[0m20:32:03.367056 [info ] [MainThread]: Found 2 models, 1 test, 1 source, 459 macros
+[0m20:32:03.367056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '515f562f-c71e-4f92-826d-dc1859701973', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263ECC7EDE0>]}
+[0m20:32:03.369078 [info ] [MainThread]: 
+[0m20:32:03.369078 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:32:03.369078 [info ] [MainThread]: 
+[0m20:32:03.370060 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:32:03.371059 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare'
+[0m20:32:03.422221 [debug] [ThreadPool]: Using postgres connection "list_healthcare"
+[0m20:32:03.422221 [debug] [ThreadPool]: On list_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:32:03.423246 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:32:03.453811 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.031 seconds
+[0m20:32:03.454792 [debug] [ThreadPool]: On list_healthcare: Close
+[0m20:32:03.456789 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare_public_marts'
+[0m20:32:03.461257 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:32:03.461257 [debug] [ThreadPool]: On list_healthcare_public_marts: BEGIN
+[0m20:32:03.461257 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:32:03.491423 [debug] [ThreadPool]: SQL status: BEGIN in 0.030 seconds
+[0m20:32:03.492402 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:32:03.492402 [debug] [ThreadPool]: On list_healthcare_public_marts: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public_marts"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_marts'
+  
+[0m20:32:03.495426 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.003 seconds
+[0m20:32:03.495426 [debug] [ThreadPool]: On list_healthcare_public_marts: ROLLBACK
+[0m20:32:03.496936 [debug] [ThreadPool]: On list_healthcare_public_marts: Close
+[0m20:32:03.496936 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_healthcare_public_marts, now list_healthcare_public)
+[0m20:32:03.499943 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:32:03.499943 [debug] [ThreadPool]: On list_healthcare_public: BEGIN
+[0m20:32:03.500943 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:32:03.533254 [debug] [ThreadPool]: SQL status: BEGIN in 0.032 seconds
+[0m20:32:03.533254 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:32:03.533254 [debug] [ThreadPool]: On list_healthcare_public: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m20:32:03.538757 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.004 seconds
+[0m20:32:03.539779 [debug] [ThreadPool]: On list_healthcare_public: ROLLBACK
+[0m20:32:03.539779 [debug] [ThreadPool]: On list_healthcare_public: Close
+[0m20:32:03.588457 [debug] [MainThread]: Using postgres connection "master"
+[0m20:32:03.588457 [debug] [MainThread]: On master: BEGIN
+[0m20:32:03.589463 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:32:03.619225 [debug] [MainThread]: SQL status: BEGIN in 0.030 seconds
+[0m20:32:03.620205 [debug] [MainThread]: Using postgres connection "master"
+[0m20:32:03.620205 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m20:32:03.623220 [debug] [MainThread]: SQL status: SELECT 2 in 0.003 seconds
+[0m20:32:03.624207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '515f562f-c71e-4f92-826d-dc1859701973', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263ECF21010>]}
+[0m20:32:03.625207 [debug] [MainThread]: On master: ROLLBACK
+[0m20:32:03.625207 [debug] [MainThread]: Using postgres connection "master"
+[0m20:32:03.625207 [debug] [MainThread]: On master: BEGIN
+[0m20:32:03.625207 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m20:32:03.626868 [debug] [MainThread]: On master: COMMIT
+[0m20:32:03.626868 [debug] [MainThread]: Using postgres connection "master"
+[0m20:32:03.626868 [debug] [MainThread]: On master: COMMIT
+[0m20:32:03.626868 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:32:03.627874 [debug] [MainThread]: On master: Close
+[0m20:32:03.629892 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.stg_healthcare
+[0m20:32:03.630873 [info ] [Thread-1 (]: 1 of 1 START sql view model public.stg_healthcare .............................. [RUN]
+[0m20:32:03.630873 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.healthcare_dbt.stg_healthcare'
+[0m20:32:03.631874 [debug] [Thread-1 (]: Began compiling node model.healthcare_dbt.stg_healthcare
+[0m20:32:03.636874 [debug] [Thread-1 (]: Writing injected SQL for node "model.healthcare_dbt.stg_healthcare"
+[0m20:32:03.637380 [debug] [Thread-1 (]: Began executing node model.healthcare_dbt.stg_healthcare
+[0m20:32:03.663718 [debug] [Thread-1 (]: Writing runtime sql for node "model.healthcare_dbt.stg_healthcare"
+[0m20:32:03.664714 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:32:03.664714 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: BEGIN
+[0m20:32:03.664714 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:32:03.693221 [debug] [Thread-1 (]: SQL status: BEGIN in 0.029 seconds
+[0m20:32:03.694182 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:32:03.694182 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+
+  create view "healthcare"."public"."stg_healthcare__dbt_tmp"
+    
+    
+  as (
+    
+
+with raw as (
+  select *
+  from "healthcare"."public"."stg_healthcare_raw"
+),
+typed as (
+  select
+    "Name"                                   as name,
+    ("Age")::numeric                         as age,
+    "Gender"                                 as gender,
+    "Blood Type"                             as blood_type,
+    "Medical Condition"                      as medical_condition,
+    -- admission date: handle MM/DD/YYYY and YYYY-MM-DD
+    case
+      when trim("Date of Admission") ~ '^\d{1,2}/\d{1,2}/\d{4}$'
+        then to_date(trim("Date of Admission"), 'MM/DD/YYYY')
+      when trim("Date of Admission") ~ '^\d{4}-\d{2}-\d{2}$'
+        then to_date(trim("Date of Admission"), 'YYYY-MM-DD')
+      else null
+    end                                         as date_of_admission,
+
+    "Doctor"                                  as doctor,
+    "Hospital"                                as hospital,
+    "Insurance Provider"                      as insurance_provider,
+    ("Billing Amount")::numeric               as billing_amount,
+    ("Room Number")::integer                  as room_number,
+    "Admission Type"                          as admission_type,
+
+    -- discharge date: same dual-format handling
+    case
+      when trim("Discharge Date") ~ '^\d{1,2}/\d{1,2}/\d{4}$'
+        then to_date(trim("Discharge Date"), 'MM/DD/YYYY')
+      when trim("Discharge Date") ~ '^\d{4}-\d{2}-\d{2}$'
+        then to_date(trim("Discharge Date"), 'YYYY-MM-DD')
+      else null
+    end                                         as discharge_date,
+
+    "Medication"                              as medication,
+    "Test Results"                            as test_results
+  from raw
+)
+select * from typed
+  );
+[0m20:32:03.699769 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.005 seconds
+[0m20:32:03.704782 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:32:03.704782 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+alter table "healthcare"."public"."stg_healthcare" rename to "stg_healthcare__dbt_backup"
+[0m20:32:03.705955 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m20:32:03.707536 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:32:03.708533 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+alter table "healthcare"."public"."stg_healthcare__dbt_tmp" rename to "stg_healthcare"
+[0m20:32:03.708533 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m20:32:03.719124 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: COMMIT
+[0m20:32:03.719124 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:32:03.720123 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: COMMIT
+[0m20:32:03.720836 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m20:32:03.724841 [debug] [Thread-1 (]: Applying DROP to: "healthcare"."public"."stg_healthcare__dbt_backup"
+[0m20:32:03.728422 [debug] [Thread-1 (]: Using postgres connection "model.healthcare_dbt.stg_healthcare"
+[0m20:32:03.728422 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "node_id": "model.healthcare_dbt.stg_healthcare"} */
+drop view if exists "healthcare"."public"."stg_healthcare__dbt_backup" cascade
+[0m20:32:03.730469 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.002 seconds
+[0m20:32:03.732354 [debug] [Thread-1 (]: On model.healthcare_dbt.stg_healthcare: Close
+[0m20:32:03.734757 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '515f562f-c71e-4f92-826d-dc1859701973', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263E7FAAC30>]}
+[0m20:32:03.734757 [info ] [Thread-1 (]: 1 of 1 OK created sql view model public.stg_healthcare ......................... [[32mCREATE VIEW[0m in 0.10s]
+[0m20:32:03.735763 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.stg_healthcare
+[0m20:32:03.736764 [debug] [MainThread]: Using postgres connection "master"
+[0m20:32:03.736764 [debug] [MainThread]: On master: BEGIN
+[0m20:32:03.736764 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:32:03.764196 [debug] [MainThread]: SQL status: BEGIN in 0.027 seconds
+[0m20:32:03.764196 [debug] [MainThread]: On master: COMMIT
+[0m20:32:03.764196 [debug] [MainThread]: Using postgres connection "master"
+[0m20:32:03.765214 [debug] [MainThread]: On master: COMMIT
+[0m20:32:03.765214 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:32:03.765214 [debug] [MainThread]: On master: Close
+[0m20:32:03.765214 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:32:03.766722 [debug] [MainThread]: Connection 'list_healthcare' was properly closed.
+[0m20:32:03.766722 [debug] [MainThread]: Connection 'list_healthcare_public' was properly closed.
+[0m20:32:03.766722 [debug] [MainThread]: Connection 'model.healthcare_dbt.stg_healthcare' was properly closed.
+[0m20:32:03.766722 [info ] [MainThread]: 
+[0m20:32:03.767728 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.40 seconds (0.40s).
+[0m20:32:03.767728 [debug] [MainThread]: Command end result
+[0m20:32:03.780787 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:32:03.783772 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:32:03.790025 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\run_results.json
+[0m20:32:03.791008 [info ] [MainThread]: 
+[0m20:32:03.791008 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:32:03.792041 [info ] [MainThread]: 
+[0m20:32:03.792041 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:32:03.793008 [debug] [MainThread]: Command `dbt run` succeeded at 20:32:03.793008 after 1.49 seconds
+[0m20:32:03.793008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263EA7C0380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263EA7C3FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263E7DA35C0>]}
+[0m20:32:03.793008 [debug] [MainThread]: Flushing usage events
+[0m20:32:04.402019 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:32:49.906570 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272E88363C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272EAD76390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272EAD77AD0>]}
+
+
+============================== 20:32:49.910596 | 439f289e-fe28-4341-b186-c8bd803f5032 ==============================
+[0m20:32:49.910596 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:32:49.910596 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\manis\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt docs generate', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\manis\\Healthcare_risk_compliance_pipeline\\dbt_project\\logs'}
+[0m20:32:50.051854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '439f289e-fe28-4341-b186-c8bd803f5032', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272ECF7A840>]}
+[0m20:32:50.098925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '439f289e-fe28-4341-b186-c8bd803f5032', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272EB733E90>]}
+[0m20:32:50.100116 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m20:32:50.232808 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:32:50.335020 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:32:50.335020 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:32:50.374629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '439f289e-fe28-4341-b186-c8bd803f5032', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272ED056A20>]}
+[0m20:32:50.399637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '439f289e-fe28-4341-b186-c8bd803f5032', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272ED3AB980>]}
+[0m20:32:50.399637 [info ] [MainThread]: Found 2 models, 1 test, 1 source, 459 macros
+[0m20:32:50.400798 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '439f289e-fe28-4341-b186-c8bd803f5032', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272ECFC2CF0>]}
+[0m20:32:50.401800 [info ] [MainThread]: 
+[0m20:32:50.402811 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:32:50.402811 [info ] [MainThread]: 
+[0m20:32:50.403937 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:32:50.403937 [debug] [ThreadPool]: Acquiring new postgres connection 'list_healthcare_public_marts'
+[0m20:32:50.454270 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:32:50.454270 [debug] [ThreadPool]: On list_healthcare_public_marts: BEGIN
+[0m20:32:50.454270 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:32:50.486506 [debug] [ThreadPool]: SQL status: BEGIN in 0.032 seconds
+[0m20:32:50.486506 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public_marts"
+[0m20:32:50.487502 [debug] [ThreadPool]: On list_healthcare_public_marts: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public_marts"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_marts'
+  
+[0m20:32:50.489504 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.002 seconds
+[0m20:32:50.491503 [debug] [ThreadPool]: On list_healthcare_public_marts: ROLLBACK
+[0m20:32:50.491503 [debug] [ThreadPool]: On list_healthcare_public_marts: Close
+[0m20:32:50.492506 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_healthcare_public_marts, now list_healthcare_public)
+[0m20:32:50.493713 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:32:50.493713 [debug] [ThreadPool]: On list_healthcare_public: BEGIN
+[0m20:32:50.493713 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:32:50.521208 [debug] [ThreadPool]: SQL status: BEGIN in 0.027 seconds
+[0m20:32:50.522593 [debug] [ThreadPool]: Using postgres connection "list_healthcare_public"
+[0m20:32:50.522593 [debug] [ThreadPool]: On list_healthcare_public: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "list_healthcare_public"} */
+select
+      'healthcare' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'healthcare' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m20:32:50.525603 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.002 seconds
+[0m20:32:50.525603 [debug] [ThreadPool]: On list_healthcare_public: ROLLBACK
+[0m20:32:50.526602 [debug] [ThreadPool]: On list_healthcare_public: Close
+[0m20:32:50.529601 [debug] [MainThread]: Using postgres connection "master"
+[0m20:32:50.530602 [debug] [MainThread]: On master: BEGIN
+[0m20:32:50.530602 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:32:50.558551 [debug] [MainThread]: SQL status: BEGIN in 0.028 seconds
+[0m20:32:50.558551 [debug] [MainThread]: Using postgres connection "master"
+[0m20:32:50.559567 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m20:32:50.561565 [debug] [MainThread]: SQL status: SELECT 1 in 0.003 seconds
+[0m20:32:50.563553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '439f289e-fe28-4341-b186-c8bd803f5032', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272ECFC2CF0>]}
+[0m20:32:50.563553 [debug] [MainThread]: On master: ROLLBACK
+[0m20:32:50.564312 [debug] [MainThread]: On master: Close
+[0m20:32:50.566329 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.stg_healthcare
+[0m20:32:50.567360 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.healthcare_dbt.stg_healthcare'
+[0m20:32:50.567360 [debug] [Thread-1 (]: Began compiling node model.healthcare_dbt.stg_healthcare
+[0m20:32:50.572345 [debug] [Thread-1 (]: Writing injected SQL for node "model.healthcare_dbt.stg_healthcare"
+[0m20:32:50.573348 [debug] [Thread-1 (]: Began executing node model.healthcare_dbt.stg_healthcare
+[0m20:32:50.573348 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.stg_healthcare
+[0m20:32:50.574330 [debug] [Thread-1 (]: Began running node model.healthcare_dbt.mart_kpis
+[0m20:32:50.574330 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.healthcare_dbt.stg_healthcare, now model.healthcare_dbt.mart_kpis)
+[0m20:32:50.575346 [debug] [Thread-1 (]: Began compiling node model.healthcare_dbt.mart_kpis
+[0m20:32:50.576512 [debug] [Thread-1 (]: Writing injected SQL for node "model.healthcare_dbt.mart_kpis"
+[0m20:32:50.577509 [debug] [Thread-1 (]: Began executing node model.healthcare_dbt.mart_kpis
+[0m20:32:50.577509 [debug] [Thread-1 (]: Finished running node model.healthcare_dbt.mart_kpis
+[0m20:32:50.578516 [debug] [Thread-1 (]: Began running node test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546
+[0m20:32:50.579018 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.healthcare_dbt.mart_kpis, now test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546)
+[0m20:32:50.579018 [debug] [Thread-1 (]: Began compiling node test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546
+[0m20:32:50.586256 [debug] [Thread-1 (]: Writing injected SQL for node "test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546"
+[0m20:32:50.587261 [debug] [Thread-1 (]: Began executing node test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546
+[0m20:32:50.588249 [debug] [Thread-1 (]: Finished running node test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546
+[0m20:32:50.588249 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:32:50.589197 [debug] [MainThread]: Connection 'list_healthcare_public' was properly closed.
+[0m20:32:50.589197 [debug] [MainThread]: Connection 'test.healthcare_dbt.not_null_stg_healthcare_date_of_admission.fc0cdba546' was properly closed.
+[0m20:32:50.589197 [debug] [MainThread]: Command end result
+[0m20:32:50.651662 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:32:50.653669 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:32:50.659649 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\run_results.json
+[0m20:32:50.665108 [debug] [MainThread]: Acquiring new postgres connection 'generate_catalog'
+[0m20:32:50.665108 [info ] [MainThread]: Building catalog
+[0m20:32:50.674765 [debug] [ThreadPool]: Acquiring new postgres connection 'healthcare.information_schema'
+[0m20:32:50.679896 [debug] [ThreadPool]: Using postgres connection "healthcare.information_schema"
+[0m20:32:50.679896 [debug] [ThreadPool]: On healthcare.information_schema: BEGIN
+[0m20:32:50.679896 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:32:50.838810 [debug] [ThreadPool]: SQL status: BEGIN in 0.158 seconds
+[0m20:32:50.839815 [debug] [ThreadPool]: Using postgres connection "healthcare.information_schema"
+[0m20:32:50.840815 [debug] [ThreadPool]: On healthcare.information_schema: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "healthcare_profile", "target_name": "dev", "connection_name": "healthcare.information_schema"} */
+
+    
+    
+
+    select
+        'healthcare' as table_database,
+        sch.nspname as table_schema,
+        tbl.relname as table_name,
+        case tbl.relkind
+            when 'v' then 'VIEW'
+            when 'm' then 'MATERIALIZED VIEW'
+            else 'BASE TABLE'
+        end as table_type,
+        tbl_desc.description as table_comment,
+        col.attname as column_name,
+        col.attnum as column_index,
+        pg_catalog.format_type(col.atttypid, col.atttypmod) as column_type,
+        col_desc.description as column_comment,
+        pg_get_userbyid(tbl.relowner) as table_owner
+
+    from pg_catalog.pg_namespace sch
+    join pg_catalog.pg_class tbl on tbl.relnamespace = sch.oid
+    join pg_catalog.pg_attribute col on col.attrelid = tbl.oid
+    left outer join pg_catalog.pg_description tbl_desc on (tbl_desc.objoid = tbl.oid and tbl_desc.objsubid = 0)
+    left outer join pg_catalog.pg_description col_desc on (col_desc.objoid = tbl.oid and col_desc.objsubid = col.attnum)
+    where ((upper(sch.nspname) = upper('public_marts') and
+           upper(tbl.relname) = upper('mart_kpis')) or (upper(sch.nspname) = upper('public') and
+           upper(tbl.relname) = upper('stg_healthcare')) or (upper(sch.nspname) = upper('public') and
+           upper(tbl.relname) = upper('stg_healthcare_raw')))
+      and not pg_is_other_temp_schema(sch.oid) -- not a temporary schema belonging to another session
+      and tbl.relpersistence in ('p', 'u') -- [p]ermanent table or [u]nlogged table. Exclude [t]emporary tables
+      and tbl.relkind in ('r', 'v', 'f', 'p', 'm') -- o[r]dinary table, [v]iew, [f]oreign table, [p]artitioned table, [m]aterialized view. Other values are [i]ndex, [S]equence, [c]omposite type, [t]OAST table
+      and col.attnum > 0 -- negative numbers are used for system columns such as oid
+      and not col.attisdropped -- column as not been dropped
+
+    order by
+        sch.nspname,
+        tbl.relname,
+        col.attnum
+[0m20:32:50.848806 [debug] [ThreadPool]: SQL status: SELECT 30 in 0.008 seconds
+[0m20:32:50.851022 [debug] [ThreadPool]: On healthcare.information_schema: ROLLBACK
+[0m20:32:50.852022 [debug] [ThreadPool]: On healthcare.information_schema: Close
+[0m20:32:50.868203 [debug] [MainThread]: Wrote artifact CatalogArtifact to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\catalog.json
+[0m20:32:50.880207 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\manifest.json
+[0m20:32:50.881204 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\semantic_manifest.json
+[0m20:32:50.882452 [info ] [MainThread]: Catalog written to C:\Users\manis\Healthcare_risk_compliance_pipeline\dbt_project\target\catalog.json
+[0m20:32:50.883454 [debug] [MainThread]: Command `dbt docs generate` succeeded at 20:32:50.883454 after 1.15 seconds
+[0m20:32:50.883454 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m20:32:50.883454 [debug] [MainThread]: Connection 'healthcare.information_schema' was properly closed.
+[0m20:32:50.883454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272EB473D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272EAE5EC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272EAD51760>]}
+[0m20:32:50.884455 [debug] [MainThread]: Flushing usage events
+[0m20:32:51.420250 [debug] [MainThread]: An error was encountered while trying to flush usage events

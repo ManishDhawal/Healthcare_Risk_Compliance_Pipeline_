@@ -1,0 +1,18 @@
+name: healthcare_dbt
+version: 1.0.0
+config-version: 2
+
+
+profile: healthcare_profile
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  healthcare_dbt:
+    +materialized: view
+    staging: 
+      +shcema: staging
+    marts:
+      +schema: marts

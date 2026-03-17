@@ -1,0 +1,10 @@
+version: 2
+
+models:
+ - name: stg_healthcare
+   description: Staging view with typed fields from the raw table (no value changes).
+   columns:
+   - name: date_of_admission
+     tests: [not_null]
+   - name: billing_amount
+     tests: []
