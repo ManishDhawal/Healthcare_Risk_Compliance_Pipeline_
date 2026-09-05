@@ -1,0 +1,31 @@
+# Secrets
+.env
+*.pem
+
+# Data. The raw extract is downloaded, not committed; processed artefacts
+# and scored outputs are rebuilt by `make all`.
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# dbt
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+dbt_project/profiles/profiles.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
